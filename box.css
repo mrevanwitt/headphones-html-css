@@ -1,0 +1,64 @@
+.main-header{
+  width: 100%;
+  height: 75px;
+  background: #ccc;
+  padding: 25px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list{
+  display: flex;
+}
+/*.main-header h1{
+  float: left;
+
+}
+
+.main-header nav{
+  float: right;
+}
+
+.list {
+  width: 30%;
+}
+
+.list li{
+  display: inline-block;
+}*/
+
+.box{
+  width: 50%;
+  height: 350px;
+  background: rgb(131, 231, 249);
+  position:relative;
+}
+
+.circle{
+  background: white;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+}
+
+.circle:nth-child(1){
+  top: 40px;
+  left: 40px;
+}
+
+.circle:nth-child(2){
+  top: 40px;
+  right: 40px;
+}
+
+.circle:nth-child(3){
+  bottom: 40px;
+  left: 40px;
+}
+
+.circle:nth-child(4){
+  bottom: 40px;
+  right: 40px;
+}
